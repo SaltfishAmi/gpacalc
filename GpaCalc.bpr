@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="GpaCalc.exe"/>
+    <OBJFILES value="GpaCalc.obj Unit1.obj Unit2.obj Unit3.obj Unit4.obj Unit5.obj Unit6.obj 
+      Unit7.obj Unit8.obj"/>
+    <RESFILES value="GpaCalc.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm Unit2.dfm Unit3.dfm Unit4.dfm Unit5.dfm Unit6.dfm 
+      Unit7.dfm Unit8.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="GifImageB6.lib vclx.lib XStringGrid_BC6.lib bcbie.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbie.lib XStringGrid_BC6.lib vclx.lib GifImageB6.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbie.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="GpaCalc.cpp"/>
+    <INCLUDEPATH value="..\tgifimage;..\XStringGrid;$(BCB)\Projects;E:\Development\BCB\Gpa;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\tgifimage;$(BCB)\Projects\Lib;..\XStringGrid;$(BCB)\Projects;E:\Development\BCB\Gpa;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-aus"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\tgifimage -I..\XStringGrid -I$(BCB)\Projects -IE:\Development\BCB\Gpa 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -d -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="GpaCalc.res" FORMNAME="" UNITNAME="GpaCalc.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GpaCalc.cpp" FORMNAME="" UNITNAME="GpaCalc" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="MainForm" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit2.cpp" FORMNAME="AboutBox" UNITNAME="Unit2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit3.cpp" FORMNAME="frmEditCourse" UNITNAME="Unit3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit4.cpp" FORMNAME="frmDebug" UNITNAME="Unit4" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit5.cpp" FORMNAME="frmScratch" UNITNAME="Unit5" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit6.cpp" FORMNAME="Form6" UNITNAME="Unit6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit7.cpp" FORMNAME="Form7" UNITNAME="Unit7" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit8.cpp" FORMNAME="frmGuess" UNITNAME="Unit8" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=2
+MinorVer=12
+Release=4
+Build=44
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=Hinpbock Technologies
+FileDescription=计算东南大学平均学分绩点
+FileVersion=2.12.4.44
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=GpaCalc2.exe
+ProductName=
+ProductVersion=2.0.0.0
+
+[Excluded Packages]
+e:\borland\cbuilder6\Projects\Bpl\GifImageB6.bpl=GifImage designtime package
+e:\borland\cbuilder6\Bin\dclado60.bpl=Borland ADO DB Components
+E:\Borland\CBuilder6\Bin\dcldb60.bpl=Borland Database Components
+e:\borland\cbuilder6\Bin\dclbde60.bpl=Borland BDE DB Components
+E:\Borland\CBuilder6\Bin\dbx60.bpl=Borland SQL Explorer UI Package
+e:\borland\cbuilder6\Bin\DCLIB60.bpl=InterBase Data Access Components
+e:\borland\cbuilder6\Bin\dclcds60.bpl=Borland Base Cached ClientDataset Component
+E:\Borland\CBuilder6\Bin\dclmid60.bpl=Borland MyBase DataAccess Components
+e:\borland\cbuilder6\Bin\dclbdecds60.bpl=Borland Local BDE ClientDataset Components
+e:\borland\cbuilder6\Bin\dclqrt60.bpl=QuickReport Components
+e:\borland\cbuilder6\Bin\dcltee60.bpl=TeeChart Components
+e:\borland\cbuilder6\Bin\dcldss60.bpl=Borland Decision Cube Components
+e:\borland\cbuilder6\Bin\dcltqr60.bpl=TeeChart for QuickReport Components
+e:\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+E:\Borland\CBuilder6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+e:\borland\cbuilder6\Bin\dclmcn60.bpl=Borland DataSnap Connection Components
+e:\borland\cbuilder6\Bin\dclsmpedit60.bpl=Borland Editor Script Enhancements
+e:\borland\cbuilder6\Bin\applet60.bpl=Borland Control Panel Applet Package
+e:\borland\cbuilder6\Bin\dclemacsedit60.bpl=Borland Editor Emacs Enhancements
+e:\borland\cbuilder6\Bin\dclact60.bpl=Borland ActionBar Components
+e:\borland\cbuilder6\Bin\dclmlwiz60.bpl=Borland Markup Language Wizards
+e:\borland\cbuilder6\Bin\idefilters60.bpl=IDE Filter for CPP32
+e:\borland\cbuilder6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+e:\borland\cbuilder6\Bin\dclbcbsmp60.bpl=Borland Sample Controls Design Time Package
+e:\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+e:\borland\cbuilder6\Bin\dclindy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+e:\borland\cbuilder6\Bin\bcb2kaxserver60.bpl=Borland C++Builder COM Server Components Sample Package
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=..\tgifimage;..\XStringGrid;$(BCB)\Projects;E:\Development\BCB\Gpa;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\XStringGrid;$(BCB)\Projects;E:\Development\BCB\Gpa;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=..\tgifimage;$(BCB)\Projects\Lib;..\XStringGrid;$(BCB)\Projects;E:\Development\BCB\Gpa;$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\Projects\Lib;..\XStringGrid;$(BCB)\Projects;E:\Development\BCB\Gpa;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
